@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: gainsboro;
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    /* height: 100px; */
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.logo{
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.logo h1 {
+    margin: auto;
+    padding: 10px;
+}
+
+.search-bar{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
+nav{
+    width: 35%;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: baseline;
+    list-style-type: none;
+
+
+}
+
+
+li a{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    /* border: 1px solid black; */
+    /* margin: 0 5px; */
+    border-right: 1px solid gray;
+    font-size: 18px;
+}
+
+.cart{
+    width: 15%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.cart button {
+   font-size: 1rem;
+   padding: 3px;
+   border-radius: 5px;
+
+}
+
+.search-bar input{
+    font-size: 1rem;
+    padding: 2px;
+    border-radius: 5px;
+}
+.search-bar button {
+    font-size: 1rem;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+header h1{
+    margin: 20 auto;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    width: 33%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+.card img{
+    width:90%;
+    height:300px;
+}
+
+header button{
+    font-size: 2rem;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main h1{
+    margin: 20 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-card{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-v{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.card-v a{
+    text-decoration: none;
+}
+
+.card-v img{
+    width: 400px;
+    height: 400px;
+}
+
+.newsletter{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info{
+    width: 50%;
+    box-sizing: border-box;
+    
+    
+}
+
+.info h1{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.info p{
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.subscribe{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.subscribe input{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.subscribe button{
+    font-size: 1.5rem;
+    padding: 5px;
+}
